@@ -15,7 +15,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/leads")
-@CrossOrigin(origins = "http://localhost:3000")
 public class LeadController {
 
     @Autowired
